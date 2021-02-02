@@ -24,3 +24,9 @@ Clustering of Australian Generation Profiles (AGP). Data from NEM site, study pe
 * 3.optimal_cluster_bgmm.ipynb - Optimal cluster count determined using different alpha using bayesian clustering
 * 4.cluster_results_bgmm.ipynb - Cluster result analysis
 
+
+### Replication code ####
+
+* Formatted data (energy shares) - data/nem_train.pkl 
+* Run 3.optimal_cluster_bgmm.ipynb - optimal cluster count and results
+* Run 5.paper_figures.ipynb - for graphs used in the paper
