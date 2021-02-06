@@ -1,8 +1,13 @@
 # Using version python3 (3.6.9) and FAST-tsne (https://github.com/KlugerLab/FIt-SNE)
+
+
+# Folders:
 # Data location: data/nem_formatted_data.pkl
+# Clustering models: models/bgmm_1_100_alpha*.pkl, selected model: model/bgmm_1_100_alpha5.pkl
+# TSNE models: models/ftz_daily_*.pkl, selected model: model/ftz_daily_30.pkl
+# Cluster evaluation:models/bgmm_results.pkl
 
-
-Steps
+# Run the below commands [1-5] in commandline and [6-7] in browser
 # 1. Run commands inside [workspace]
 cd ~/agp
 
@@ -15,8 +20,12 @@ source p3_venv/bin/activate
 # 4. Install dependencies
 pip install -r requirements.txt
 
-# 5. Create optimal clusters using BayesianGaussianMixture model
+# 5. Run Jupyter lab
+jupyter lab
+
+
+# 6. Create optimal clusters using BayesianGaussianMixture model
 Run 3.optimal_cluster_bgmm.ipynb - optimal cluster count and results
 
-# 6. Re-create graphs in the paper
+# 7. Re-create graphs in the paper
 Run 5.paper_figures.ipynb - for graphs used in the paper
