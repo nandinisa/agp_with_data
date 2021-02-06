@@ -68,7 +68,7 @@ def get_cluster_assignment_day(X):
 
 
 def get_data():
-    df_orig = pd.read_pickle('data/nem_train.pkl')
+    df_orig = pd.read_pickle('data/nem_formatted_data.pkl')
     df_orig = df_orig[df_orig.datetime.dt.date.astype('str') != '2020-10-01']
     
     index_cols = [ 'state', 'year', 'month', 'day']

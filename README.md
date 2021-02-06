@@ -27,6 +27,4 @@ Clustering of Australian Generation Profiles (AGP). Data from NEM site, study pe
 
 ### Replication code ####
 
-* Formatted data (energy shares) - data/nem_train.pkl 
-* Run 3.optimal_cluster_bgmm.ipynb - optimal cluster count and results
-* Run 5.paper_figures.ipynb - for graphs used in the paper
+* Refer to replication.txt

@@ -1,0 +1,22 @@
+# Using version python3 (3.6.9) and FAST-tsne (https://github.com/KlugerLab/FIt-SNE)
+# Data location: data/nem_formatted_data.pkl
+
+
+Steps
+# 1. Run commands inside [workspace]
+cd ~/agp
+
+# 2. Create a virtual environment
+python3 -m venv p3_venv
+
+# 3. Activate virtual environment
+source p3_venv/bin/activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Create optimal clusters using BayesianGaussianMixture model
+Run 3.optimal_cluster_bgmm.ipynb - optimal cluster count and results
+
+# 6. Re-create graphs in the paper
+Run 5.paper_figures.ipynb - for graphs used in the paper
