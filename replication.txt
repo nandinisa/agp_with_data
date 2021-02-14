@@ -1,5 +1,5 @@
 # Using version python3 (3.6.9) and FAST-tsne (https://github.com/KlugerLab/FIt-SNE)
-
+# Source: https://github.com/nandinisa/agp
 
 # Folders:
 # Data location: data/nem_formatted_data.pkl
@@ -25,7 +25,9 @@ jupyter lab
 
 
 # 6. Create optimal clusters using BayesianGaussianMixture model
+# Ref to use notebook: https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
 Run 3.optimal_cluster_bgmm.ipynb - optimal cluster count and results
 
 # 7. Re-create graphs in the paper
+# Ref to use notebook: https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
 Run 5.paper_figures.ipynb - for graphs used in the paper
